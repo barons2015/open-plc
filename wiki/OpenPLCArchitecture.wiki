@@ -1,3 +1,4 @@
+#sidebar TableOfContents
 = OpenPLC Architecture =
 
 The image above shows the actual ATmega328 pinout used by OpenPLC:
