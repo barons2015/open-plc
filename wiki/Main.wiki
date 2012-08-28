@@ -1,0 +1,27 @@
+= Introduction =
+
+PLCduino is an open hardware alternative for industrial and home automation. It uses the well known ATmega chips as main processor, the same used on Arduino. This means that PLCduino is code-compatible with all arduino sketches.
+
+
+= Details =
+
+The main features of the PLCduino are:
+
+
+● 4 Protected 24V Digital Inputs
+
+● 4 Protected 24V Digital Outputs
+
+● 4 Protected 24V Analog Inputs
+
+● USB Communication (also used to program)
+
+● SPI & I2C buses for peripherals and I/O expansions
+
+● Open Source IDE with c++ programming
+
+● Open Source IDE with Ladder programming
+
+● Expansion Cards - Digital I/O, Analog I/O, Ethernet & more...
+
+● 16MHz ATmega328P as main processor
