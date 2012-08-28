@@ -1,1 +1,2 @@
 [Main OpenPLC Main Page]
+[OpenPLCArchitecture OpenPLC Architecture]
