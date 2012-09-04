@@ -38,4 +38,4 @@ Today we presented the OpenPLC project for the first time at PUC University. You
 
 *September 4, 2012*
 
-We just finish building the first schematic of the OpenPLC Main Board. You may want to check our Design page for more details
+We just finish building the first schematic of the OpenPLC Main Board. You may want to check our [Design] page for more details
