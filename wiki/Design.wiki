@@ -2,7 +2,7 @@
 
 = OpenPLC Main Board =
 
-This is the first revision of the OpenPLC Main Board
+This is the first version of the OpenPLC Main Board
 
 [http://open-plc.googlecode.com/files/mainboard-rev0.png]
 
