@@ -30,4 +30,12 @@ The main features of the OpenPLC are:
 ● 16MHz ATmega328P as main processor
 
 
-You may want to check our [http://open-plc.googlecode.com/files/OpenPLC%20Presentation.pdf First OpenPLC Presentation] at PUC Minas
+= News = 
+
+*August 28, 2012*
+
+Today we presented the OpenPLC project for the first time at PUC University. You may want to check our presentation [http://open-plc.googlecode.com/files/OpenPLC%20Presentation.pdf here]
+
+*September 4, 2012*
+
+We just finish building the first schematic of the OpenPLC Main Board. You may want to check our Design page for more details
