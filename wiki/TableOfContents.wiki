@@ -1,5 +1,5 @@
-[Main OpenPLC Main Page]
+[Main Main Page]
 
-[OpenPLCArchitecture OpenPLC Architecture]
+[OpenPLCArchitecture Architecture]
 
 [Design Design Files]
