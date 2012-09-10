@@ -32,10 +32,11 @@ The main features of the OpenPLC are:
 
 = News = 
 
-*August 28, 2012*
-
-Today we presented the OpenPLC project for the first time at PUC University. You may want to check our presentation [http://open-plc.googlecode.com/files/OpenPLC%20Presentation.pdf here]
 
 *September 4, 2012*
 
 We just finish building the first schematic of the OpenPLC Main Board. You may want to check our [Design] page for more details
+
+*August 28, 2012*
+
+Today we presented the OpenPLC project for the first time at PUC University. You may want to check our presentation [http://open-plc.googlecode.com/files/OpenPLC%20Presentation.pdf here]
