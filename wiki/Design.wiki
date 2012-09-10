@@ -2,12 +2,20 @@
 
 = OpenPLC Main Board =
 
-This is the first version of the OpenPLC Main Board
+Note: We decided to use *Kicad* as our CAD software because it's open-source and it's also very stable and robust. Please visit [http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite Kicad homepage] for more information and download links.
+
+This is the first revision of our OpenPLC Main Board, with the new power supply
+
+[http://open-plc.googlecode.com/files/mainboard-rev1.png]
+
+For download links, scroll down until the end of this page
+
+This is the OpenPLC Main Board Rev0
 
 [http://open-plc.googlecode.com/files/mainboard-rev0.png]
 
-We decided to use *Kicad* as our CAD software because it's open-source and it's also very stable and robust. Please visit [http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite Kicad homepage] for more information and download links.
 
-If you want to download our schematic file in *kicad* format, click on the link above:
+Here you can download any of our schematics files in *kicad* format. Just choose the revision you would like to download, click on the link and the download should start automatically
 
-[http://open-plc.googlecode.com/files/OpenPLC-mainboard.zip OpenPLC Mainboard]
+[http://open-plc.googlecode.com/files/OpenPLC-mainboard-rev1.zip OpenPLC Mainboard Rev1]
+[http://open-plc.googlecode.com/files/OpenPLC-mainboard.zip OpenPLC Mainboard Rev0]
