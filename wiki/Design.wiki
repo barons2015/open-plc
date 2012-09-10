@@ -20,4 +20,4 @@ Here you can download any of our schematics files in *kicad* format. Just choose
 
 [http://open-plc.googlecode.com/files/OpenPLC-mainboard-rev1.zip OpenPLC Mainboard Rev1]
 
-[http://open-plc.googlecode.com/files/OpenPLC-mainboard.zip OpenPLC Mainboard Rev0]
+[http://open-plc.googlecode.com/files/OpenPLC-mainboard-rev0.zip OpenPLC Mainboard Rev0]
