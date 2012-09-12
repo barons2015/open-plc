@@ -32,6 +32,11 @@ The main features of the OpenPLC are:
 
 = News = 
 
+*September 12, 2012*
+
+Finally, we concluded the development of our OpenPLC Main Board! We are excited to start producing the first prototypes and test it. Check out the [Design Design] page for download link and more information.
+
+
 *September 10, 2012*
 
 After some analysis, we realized that our linear 7805 power supply would not be a good idea. It would generate a lot of heat if the circuit starts to demand too much current. Also it has some conceptual problems (you can't short the output of two 7805's because the regulation in two CI's are not exactly the same). So we decided to substitute the linear power supply with a better and optimized switching power supply based on LM2576. We also added a Protection Circuit just in case someone try to use 220V instead of 24V :) [Design Check it out]
