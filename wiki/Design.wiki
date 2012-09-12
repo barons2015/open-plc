@@ -5,13 +5,13 @@
 *Note:* We decided to use *Kicad* as our CAD software because it's open-source and it's also very stable and robust. Please visit [http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite Kicad homepage] for more information and download links.
 *For download links, scroll down until the end of this page*
 
-We finally finish creating the OpenPLC Main Board. Check these pictures of it in 3D: 
+We finally finished creating the OpenPLC Main Board. Check these pictures of it in 3D: 
 
 [http://open-plc.googlecode.com/files/mainboard-pcb1.png]
 
 [http://open-plc.googlecode.com/files/mainboard-pcb2.png]
 
-We updated the download link of the Main Board Rev1 with the pcb files. Just download the zip and uncompress it.
+We updated the download link of the Main Board Rev1 with the pcb files. Just download the zip and uncompress it. After testing the first Main Board prototype, we will start developing the others boards for inputs, outputs and analog circuits. That will be, for sure, the most important part of our project.
 
 This is the first revision of our OpenPLC Main Board, with the new power supply, the protection circuit and some minor modifications on the connectors
 
