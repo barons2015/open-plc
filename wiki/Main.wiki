@@ -36,6 +36,8 @@ The main features of the OpenPLC are:
 
 Finally, we concluded the development of our OpenPLC Main Board! We are excited to start producing the first prototypes and test it. Check out the [Design Design] page for download link and more information.
 
+[http://open-plc.googlecode.com/files/mainboard-pcb1.png]
+
 
 *September 10, 2012*
 
