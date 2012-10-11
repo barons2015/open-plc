@@ -42,7 +42,7 @@ After a little delay we are finally back with great news: the inputboard is fini
 
 Finally, we concluded the development of our OpenPLC Main Board! We are excited to start producing the first prototypes and test it. Check out the [Design Design] page for the download link and more information.
 
-[http://open-plc.googlecode.com/files/mainboard-pcb1.png]
+[http://open-plc.googlecode.com/files/inputboad.png]
 
 
 *September 10, 2012*
