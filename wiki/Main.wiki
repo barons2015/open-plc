@@ -36,13 +36,13 @@ The main features of the OpenPLC are:
 
 After a little delay we are finally back with great news: the inputboard is finished! Below you can check the first renderization of the board using wings render built in kicad. Also, I must say that we sent the mainboard to production and now we have the first prototype. In a few days I will post some pictures of it. We now need to get the components to assemble it and start the first tests. As soon as it's done I will post the results here. I hope you all are as excited as I am to see it working!
 
-[http://open-plc.googlecode.com/files/mainboard-pcb1.png]
+[http://open-plc.googlecode.com/files/inputboard.png]
 
 *September 12, 2012*
 
 Finally, we concluded the development of our OpenPLC Main Board! We are excited to start producing the first prototypes and test it. Check out the [Design Design] page for the download link and more information.
 
-[http://open-plc.googlecode.com/files/inputboad.png]
+[http://open-plc.googlecode.com/files/mainboard-pcb1.png]
 
 
 *September 10, 2012*
