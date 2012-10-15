@@ -10,14 +10,22 @@ Here you can find download links to all OpenPLC versions and its package history
 
 *OpenPLC Rev 0.3 Changes*
  * Added inputboard pcb and schematics to the project
-Download Full Kicad Project: [http://open-plc.googlecode.com/files/OpenPLC-rev0.3.zip OpenPLC Rev0.3]
+Full Kicad Project: [http://open-plc.googlecode.com/files/OpenPLC-rev0.3.zip OpenPLC Rev0.3]
+
+Mainboard schematics: [http://open-plc.googlecode.com/files/mainboard-rev0.3.pdf Mainboard Rev0.3]
+
+Inputboard schematics: [http://open-plc.googlecode.com/files/inputboard-rev0.3.pdf Inputboard Rev0.3]
 ----
 *OpenPLC Rev 0.2 Changes*
  * New 5V power supply
  * Power protection circuit
  * Changed I/O connectors
-Download Full Kicad Project:[http://open-plc.googlecode.com/files/OpenPLC-rev0.2.zip OpenPLC Rev0.2]
+Full Kicad Project:[http://open-plc.googlecode.com/files/OpenPLC-rev0.2.zip OpenPLC Rev0.2]
+
+Mainboard schematics: [http://open-plc.googlecode.com/files/mainboard-rev0.2.pdf Mainboard Rev0.2]
 ----
 *OpenPLC Rev 0.1 Changes*
  * First public version of the board
-Download Full Kicad Project:[http://open-plc.googlecode.com/files/OpenPLC-rev0.1.zip OpenPLC Rev0.1]
+Full Kicad Project:[http://open-plc.googlecode.com/files/OpenPLC-rev0.1.zip OpenPLC Rev0.1]
+
+Mainboard schematics: [http://open-plc.googlecode.com/files/mainboard-rev0.1.pdf Mainboard Rev0.1]
