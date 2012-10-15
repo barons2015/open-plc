@@ -1,31 +1,23 @@
 #sidebar TableOfContents
 
-= OpenPLC Main Board =
+= OpenPLC Design Files =
 
 *Note:* We decided to use *Kicad* as our CAD software because it's open-source and it's also very stable and robust. Please visit [http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite Kicad homepage] for more information and download links.
-*For download links, scroll down until the end of this page*
+----
+= Downloads =
 
-We finally finished creating the OpenPLC Main Board. Check these pictures of it in 3D: 
+Here you can find download links to all OpenPLC versions and its package history
 
-[http://open-plc.googlecode.com/files/mainboard-pcb1.png]
-
-[http://open-plc.googlecode.com/files/mainboard-pcb2.png]
-
-We updated the download link of the Main Board Rev1 with the pcb files. Just download the zip and uncompress it. After testing the first Main Board prototype, we will start developing the others boards for inputs, outputs and analog circuits. That will be, for sure, the most important part of our project.
-
-This is the first revision of our OpenPLC Main Board, with the new power supply, the protection circuit and some minor modifications on the connectors
-
-[http://open-plc.googlecode.com/files/mainboard-rev1.png]
-
-
-
-This is the OpenPLC Main Board Rev0
-
-[http://open-plc.googlecode.com/files/mainboard-rev0.png]
-
-
-Here you can download any of our schematics files in *kicad* format. Just choose the revision you would like to download, click on the link and the download should start automatically
-
-[http://open-plc.googlecode.com/files/OpenPLC-mainboard-rev1.zip OpenPLC Mainboard Rev1]
-
-[http://open-plc.googlecode.com/files/OpenPLC-mainboard-rev0.zip OpenPLC Mainboard Rev0]
+*OpenPLC Rev 0.3 Changes*
+ * Added inputboard pcb and schematics to the project
+Download Full Kicad Project: [http://open-plc.googlecode.com/files/OpenPLC-rev0.3.zip OpenPLC Rev0.3]
+----
+*OpenPLC Rev 0.2 Changes*
+ * New 5V power supply
+ * Power protection circuit
+ * Changed I/O connectors
+Download Full Kicad Project:[http://open-plc.googlecode.com/files/OpenPLC-rev0.2.zip OpenPLC Rev0.2]
+----
+*OpenPLC Rev 0.1 Changes*
+ * First public version of the board
+Download Full Kicad Project:[http://open-plc.googlecode.com/files/OpenPLC-rev0.1.zip OpenPLC Rev0.1]
