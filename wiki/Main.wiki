@@ -38,6 +38,13 @@ Our outputboard is done! Now we only have one board to go! Check out the renderi
 
 [http://open-plc.googlecode.com/files/outputboard.png]
 
+*October 17, 2012*
+
+The OpenPLC prototypes arrived! We are holding in our hads right now the first OpenPLC mainboard prototype. We will just assemble the components and test it out. As soon as we have our tests done, I will post the results here. Check out the pictures.
+
+[http://open-plc.googlecode.com/files/board.jpg]
+[http://open-plc.googlecode.com/files/board_components.jpg]
+
 *October 10, 2012*
 
 After a little delay we are finally back with great news: the inputboard is finished! Below you can check the first renderization of the board using wings render built in kicad. Also, I must say that we sent the mainboard to production and now we have the first prototype. In a few days I will post some pictures of it. We now need to get the components to assemble it and start the first tests. As soon as it's done I will post the results here. I hope you all are as excited as I am to see it working!
