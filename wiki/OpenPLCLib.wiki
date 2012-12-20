@@ -26,7 +26,7 @@ void setup()
 
 *int readInput(int input)*
 
-Read the selected input.
+Returns the state of the selected input. The state can be ON or OFF.
 
 *Note: OpenPLC inputs are called X0, X1, X2...*
 
@@ -46,3 +46,29 @@ void loop()
 }
 }}}
 ----
+
+*int setOutput(int output, boolean state)*
+
+Defines the state of the selected output and returns zero if scceded or -1 in case of failure. This is a discrete function, so it will only set outputs to ON or OFF states. For pwm outputs, it will set the output to maximum dutycicle if the state is ON. If you need a variable pwm output, check setPWM() function.
+
+*Note: OpenPLC outputs are called Y0, Y1, Y2...*
+
+Example:
+{{{
+void setup() 
+{
+  PLCInit();
+  Serial.begin(38400);
+  Serial.println("System Loaded!");
+}
+void loop()
+{
+  Serial.println("Output Y0 ON");
+  setOutput(Y0, ON);
+  delay(1000);
+
+  Serial.println("Output Y0 OFF");
+  setOutput(Y0, OFF);
+  delay(1000);
+}
+}}}
