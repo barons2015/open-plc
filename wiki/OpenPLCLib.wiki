@@ -6,7 +6,7 @@ We developed a small library to use our PLC with the Arduino Platform. To instal
 
 *Download Link: [http://open-plc.googlecode.com/files/OpenPLC-Lib.zip OpenPLC-Lib.zip]*
 
-You may also want to look at the OpenPLC Talk, a small arduino software wrote using OpenPLC Library. It receives commands trough USB port and answers back activating outputs, reading inputs or calculating the 'pi' number. Try commands as:
+You may also want to look at the [http://open-plc.googlecode.com/files/OpenPLC_Talk.zip OpenPLC Talk], a small arduino software wrote using OpenPLC Library. It receives commands trough USB port and answers back activating outputs, reading inputs or calculating the 'pi' number. Try commands as:
  * read input X0
  * set output Y1
  * clear output Y2
