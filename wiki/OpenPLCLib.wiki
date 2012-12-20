@@ -41,7 +41,7 @@ void setup()
 void loop()
 {
   Serial.print("Input X0: ");
-  Serial.println(readInput(X0));
+  Serial.println(readInput(X0)); //prints X0 input's state
   delay(500);
 }
 }}}
@@ -49,7 +49,7 @@ void loop()
 
 *int setOutput(int output, boolean state)*
 
-Defines the state of the selected output and returns zero if scceded or -1 in case of failure. This is a discrete function, so it will only set outputs to ON or OFF states. For pwm outputs, it will set the output to maximum dutycicle if the state is ON. If you need a variable pwm output, check setPWM() function.
+Defines the state of the selected output and returns zero if succeded or -1 in case of failure. This is a discrete function, so it will only set outputs to ON or OFF states. For pwm outputs, it will set the output to maximum duty cycle if the state is ON. If you need a variable pwm output, check setPWM() function.
 
 *Note: OpenPLC outputs are called Y0, Y1, Y2...*
 
@@ -63,12 +63,37 @@ void setup()
 }
 void loop()
 {
-  Serial.println("Output Y0 ON");
+  Serial.println("Output Y0 ON"); //set output Y0
   setOutput(Y0, ON);
   delay(1000);
 
-  Serial.println("Output Y0 OFF");
+  Serial.println("Output Y0 OFF"); //clear output Y0
   setOutput(Y0, OFF);
   delay(1000);
 }
 }}}
+----
+
+*int setPWM(int output, float pwmvalue)*
+
+Defines the duty cycle of the pwm-able outputs. It will return zero if succeded or -1 in case of failure.
+
+Example:
+{{{
+int pwmvalue = 0;
+void setup() 
+{
+  PLCInit();
+  Serial.begin(38400);
+  Serial.println("System Loaded!");
+}
+void loop()
+{
+  setPWM(Y3, pwmvalue);
+  pwmvalue++;
+  if(pwmvalue > 100)
+    pwmvalue = 0;
+  delay(10);
+}
+}}}
+----
