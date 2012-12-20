@@ -1,0 +1,48 @@
+#sidebar TableOfContents
+
+= OpenPLC Library =
+
+We developed a small library to use our PLC with the Arduino Platform. To install, just download the library using the link above, and extract it inside the Libraries folder in your Arduino installation.
+
+*Download Link: [http://open-plc.googlecode.com/files/OpenPLC-Lib.zip OpenPLC-Lib.zip]*
+
+
+= Library Functions =
+
+*void PLCInit()*
+
+Initializes the PLC with the proper output and input pins.
+
+Example:
+{{{
+void setup() 
+{
+  PLCInit();
+  Serial.begin(38400);
+  Serial.println("System Loaded!");
+}
+}}}
+----
+
+*int readInput(int input)*
+
+Read the selected input.
+
+*Note: OpenPLC inputs are called X0, X1, X2...*
+
+Example:
+{{{
+void setup() 
+{
+  PLCInit();
+  Serial.begin(38400);
+  Serial.println("System Loaded!");
+}
+void loop()
+{
+  Serial.print("Input X0: ");
+  Serial.println(readInput(X0));
+  delay(500);
+}
+}}}
+----
