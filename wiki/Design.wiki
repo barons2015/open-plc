@@ -8,6 +8,23 @@
 
 Here you can find download links to all OpenPLC versions and its package history
 
+
+
+*OpenPLC Rev 0.5 Changes*
+ * Added analogboard pcb and schematics to the project
+ * Corrected some extra inverters in relay outputs at the outputboard 
+Full Kicad Project: [http://open-plc.googlecode.com/files/OpenPLC-rev0.5.zip OpenPLC Rev0.5]
+
+Mainboard schematics: [http://open-plc.googlecode.com/files/mainboard-rev0.5.pdf Mainboard Rev0.5]
+
+Inputboard schematics: [http://open-plc.googlecode.com/files/inputboard-rev0.5.pdf Inputboard Rev0.5]
+
+Outputboard schematics: [http://open-plc.googlecode.com/files/outputboard-rev0.5.pdf Outputboard Rev0.5]
+
+Analogboard schematics: [http://open-plc.googlecode.com/files/analogboard-rev0.5.pdf Analogboard Rev0.5]
+
+
+
 *OpenPLC Rev 0.4 Changes*
  * Added outputboard pcb and schematics to the project
  * Corrected minimal issues with some inputboard tracks that were generating errors
