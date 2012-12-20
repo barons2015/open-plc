@@ -76,7 +76,7 @@ void loop()
 
 *int setPWM(int output, float pwmvalue)*
 
-Defines the duty cycle of the pwm-able outputs. It will return zero if succeded or -1 in case of failure.
+Defines the duty cycle of the pwm-able outputs. The pwm will range from 0-100. It will return zero if succeded or -1 in case of failure.
 
 Example:
 {{{
@@ -89,11 +89,33 @@ void setup()
 }
 void loop()
 {
-  setPWM(Y3, pwmvalue);
-  pwmvalue++;
-  if(pwmvalue > 100)
-    pwmvalue = 0;
+  setPWM(Y3, pwmvalue); //set Y3 output to pwmvalue
+  pwmvalue++; //increases pwmvalue
+  if(pwmvalue > 100) //compares if pwmvalue got its maximum value
+    pwmvalue = 0; //reset pwmvalue
   delay(10);
 }
 }}}
 ----
+
+*float readAnalog(int analog)*
+
+Returns the value read by the desired analog input.
+
+*Note: OpenPLC Analog Inputs are called A0, A1, A2...*
+
+Example:
+{{{
+void setup() 
+{
+  PLCInit();
+  Serial.begin(38400);
+  Serial.println("System Loaded!");
+}
+void loop()
+{
+  Serial.print("Analog A0: ");
+  Serial.println(readAnalog(A0)); //prints A0 value
+  delay(500);
+}
+}}}
