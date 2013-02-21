@@ -47,15 +47,15 @@ After a long delay we finally have good news and a great Christmas gift to every
 
 Below you can check some pictures of our first OpenPLC prototype and it's first public presentation:
 
-[http://open-plc.googlecode.com/files/feira1.png]
+[http://open-plc.googlecode.com/files/feira1.PNG]
 
-[http://open-plc.googlecode.com/files/feira2.png]
+[http://open-plc.googlecode.com/files/feira2.PNG]
 
-[http://open-plc.googlecode.com/files/feira3.png]
+[http://open-plc.googlecode.com/files/feira3.PNG]
 
-[http://open-plc.googlecode.com/files/feira4.png]
+[http://open-plc.googlecode.com/files/feira4.PNG]
 
-[http://open-plc.googlecode.com/files/feira5.png]
+[http://open-plc.googlecode.com/files/feira5.PNG]
 
 *October 18, 2012*
 
