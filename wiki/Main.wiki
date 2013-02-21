@@ -32,6 +32,11 @@ The main features of the OpenPLC are:
 
 = News = 
 
+
+*February 20, 2013*
+
+Brazilian summer is over, and now it's time to return to our researches. Our plans for this semester are very agressive. We want to improve our hardware and make new boards. For this semester we are planing to release a *Ethernet Network Interface* and an *I/O Expansion Board*. So keep checking here for more news!
+
 *December 19, 2012*
 
 After a long delay we finally have good news and a great Christmas gift to everybody. Many things happened during these past months, so I will try to resume everything here:
@@ -39,6 +44,14 @@ After a long delay we finally have good news and a great Christmas gift to every
  * For the first time, OpenPLC went to a public presentation during Feira de Integração Curricular at PUC Minas. It caught attention of many visitors, teachers and students.
  * Hack-a-Day wrote about us! Check it out [http://hackaday.com/2012/10/27/openplc-for-industrial-automation-to-halloween-displays/]
  * As a Christmas gift to everybody we wrote the OpenPLC Library for Arduino. Its a small and simple library that will make easier the integration between OpenPLC and the Arduino Platform. Check it [OpenPLCLib here]
+
+Below you can check some pictures of our first OpenPLC prototype and it's first public presentation:
+
+[http://open-plc.googlecode.com/files/feira1.png]
+[http://open-plc.googlecode.com/files/feira2.png]
+[http://open-plc.googlecode.com/files/feira3.png]
+[http://open-plc.googlecode.com/files/feira4.png]
+
 
 *October 18, 2012*
 
