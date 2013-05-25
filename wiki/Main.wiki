@@ -31,6 +31,7 @@ The main features of the OpenPLC are:
 = News = 
 
 *May 25, 2013*
+
 You may have noticed that we changed some of the main features of the OpenPLC. During this semester, instead of building more boards, we started to review our project and to improve it. We realized that our architecture must be modular, witch means that we need to create a bus and a protocol for the modules to communicate. We also realized that there are many hardware project errors. So, what we did was a start over. We learned a lot from this first stage of the OpenPLC development, but we need to create another one, completely different. Here are one of the main changes that we will apply to the project:
 
 1) Every module will have a processor, and it will be the ATMega328P for compatibility reasons.
