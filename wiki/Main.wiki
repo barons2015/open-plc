@@ -35,13 +35,19 @@ The main features of the OpenPLC are:
 You may have noticed that we changed some of the main features of the OpenPLC. During this semester, instead of creating new boards, we started to review our project and to improve it. We realized that our architecture must be modular, witch means that we need to create a bus and a protocol for the modules to communicate. We also realized that there are many hardware project errors. So, what we did was a start over. We learned a lot from this first stage of the OpenPLC development, but we need to create another one, completely different. Here are one of the main changes that we will apply to the project:
 
 1) Every module will have a processor, and it will be the ATMega328P for compatibility reasons.
+
 2) There will be a board that will interconnect all the other boards. We want to call it the *bus board*.
+
 3) The bus board will have RS-485 drivers to establish the communication between modules. RS-485 is a hardware protocol, and it has proven to be really stable and immune to noise.
+
 4) The CPU board (name has changed from main board to CPU board) will have integrated ethernet with a MODBUS TCP implementation in software. The CPU board will also be the RS-485 master on the bus. It means that all communication will start from the CPU board.
+
 5) We will create a protocol for the boards to communicate. It will be universal, witch means that as new modules arrive, with different functionalities, they will be able to communicate using the same protocol.
+
 6) There will be two new softwares for the OpenPLC. One is the OpenPLC Configuration Tool, where the user can get information about the PLC and its modules, change network configuration and change module's ID. The other will be the OpenPLC Ladder for graphical programming.
 
 We are happy to announce that some of these new functionalities are already implemented. Using our old OpenPLC prototype, we changed the main board a bit to include an ethernet module. We also added ethernet and MODBUS TCP capabilities to our OpenPLC Library for the Arduino. Currently it's responding for the MODBUS FC01, FC02, FC05 and FC15. The OpenPLC Configuration Tool is partially done. It was coded in C# witch is a very modern and robust language. By now it can retrieve information from the OpenPLC prototype and change network configuration as IP, subnet mask, gateway and MAC Address. 
+
 We also created a beta version of our OpenPLC Ladder. We are really happy with that because now users can program our PLC using the standardized Ladder graphical language. It all has been made possible thanks to Jonathan Westhues and his LDmicro software. We used LDmicro as a base to generate ANSI C code from a ladder diagram and then integrated the generated code with our OpenPLC Library and compiled everything together using AVR-tools. It works like a charm! We are really excited to show everyone these new features, but first we need to develop our new system and adapt our files and libraries to it. As soon as the project is done, we will release all files to the public.                               
 
 
