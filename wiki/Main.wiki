@@ -25,10 +25,25 @@ The main features of the OpenPLC are:
 
 ● Integrated Ethernet
 
-● 16MHz ATmega328P as main processor
+● 16MHz ATmega2560 as main processor
 
 
 = News = 
+
+*September 9, 2013*
+
+I'm very happy to announce here that the OpenPLC Ladder is finally ready for it's first public beta! We are developing it for the last couple months and we are really excited about how it can compile ladder code directly to the OpenPLC processor. It was based on [http://cq.cx/ladder.pl LDmicro] by Jonathan Westhues, an awesome piece of software that can generate ANSI C code from a ladder diagram. We added to it the AVR compiler and a nice user interface made in C# so that you can compile your ladder diagram in one click. Check out some screenshots:
+
+[http://open-plc.googlecode.com/files/ladder_screenshot1.PNG]
+
+[http://open-plc.googlecode.com/files/ladder_screenshot2.PNG]
+
+[http://open-plc.googlecode.com/files/ladder_screenshot3.PNG]
+
+If you want to download the binary files, just click [http://open-plc.googlecode.com/files/openplc_ladder.zip HERE]. For now, only the binary files are available. As soon as the project is done, we will make all the code available for public access.
+
+NOTE: You can upload the openplc ladder code to a standard Arduino Mega as it has the same processor of the OpenPLC
+
 
 *May 25, 2013*
 
