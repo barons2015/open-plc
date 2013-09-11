@@ -40,7 +40,7 @@ I'm very happy to announce here that the OpenPLC Ladder is finally ready for it'
 
 [http://open-plc.googlecode.com/files/ladder_screenshot3.PNG]
 
-If you want to download the binary files, just click [http://open-plc.googlecode.com/files/openplc_ladder.zip HERE]. For now, only the binary files are available. As soon as the project is done, we will make all the code available for public access.
+If you want to download the binary files, just click [https://docs.google.com/file/d/0BwyThwktWLAlSG9Uc3FfYmlHcnc/edit?usp=sharing HERE]. For now, only the binary files are available. As soon as the project is done, we will make all the code available for public access.
 
 NOTE: You can upload the openplc ladder code to a standard Arduino Mega as it has the same processor of the OpenPLC
 
