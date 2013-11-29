@@ -30,6 +30,15 @@ The main features of the OpenPLC are:
 
 = News = 
 
+*November 29, 2013*
+
+Finally the boards are done! Earlier this month we received the first prototypes of the boards. We were so excited to see the OpenPLC working for the first time. And for our big surprise, everything worked as expected! Here is a photo of the boards fully assembled:
+
+[https://open-plc.googlecode.com/files/foto%20OpenPLC.PNG]
+
+We made a benchmark with a Siemens S7-200 PLC. There was an application running with this plc at the university. We printed out the ladder diagram for the application, insert that on the OpenPLC Ladder and uploaded the code to the OpenPLC. After that, we unplugged the siemens plc and plugged our PLC. The application worked exactly the same way it was working before with the siemens plc. It was amazing!
+
+
 *September 9, 2013*
 
 I'm very happy to announce here that the OpenPLC Ladder is finally ready for it's first public beta! We are developing it for the last couple months and we are really excited about how it can compile ladder code directly to the OpenPLC processor. It was based on [http://cq.cx/ladder.pl LDmicro] by Jonathan Westhues, an awesome piece of software that can generate ANSI C code from a ladder diagram. We added to it the AVR compiler and a nice user interface made in C# so that you can compile your ladder diagram in one click. Check out some screenshots:
