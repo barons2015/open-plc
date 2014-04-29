@@ -1,5 +1,9 @@
 #sidebar TableOfContents
 
+=*THIS GOOGLE CODE PAGE IS OUTDATED. PLEASE VISIT OUR NEW WEBSITE FOR THE MOST RECENT FILES AND UPDATES ABOUT THE OPENPLC PROJECT*=
+
+==*[http://www.openplcproject.com]*==
+
 = OpenPLC Design Files =
 
 *Note:* We decided to use *Kicad* as our CAD software because it's open-source and it's also very stable and robust. Please visit [http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite Kicad homepage] for more information and download links.
