@@ -1,5 +1,9 @@
 #sidebar TableOfContents
 
+=*THIS GOOGLE CODE PAGE IS OUTDATED. PLEASE VISIT OUR NEW WEBSITE FOR THE MOST RECENT FILES AND UPDATES ABOUT THE OPENPLC PROJECT*=
+
+==*[http://www.openplcproject.com]*==
+
 = Introduction =
 
 OpenPLC is an open hardware alternative for industrial and home automation. It uses the well known ATmega chips as main processor, the same used on Arduino. This means that OpenPLC is code-compatible with all arduino sketches.
