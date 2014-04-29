@@ -1,5 +1,9 @@
 #sidebar TableOfContents
 
+=*THIS GOOGLE CODE PAGE IS OUTDATED. PLEASE VISIT OUR NEW WEBSITE FOR THE MOST RECENT FILES AND UPDATES ABOUT THE OPENPLC PROJECT*=
+
+==*[http://www.openplcproject.com]*==
+
 = OpenPLC Library =
 
 We developed a small library to use our PLC with the Arduino Platform. To install, just download the library using the link above, and extract it inside the Libraries folder in your Arduino installation.
