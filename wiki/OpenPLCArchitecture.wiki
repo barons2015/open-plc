@@ -1,4 +1,9 @@
 #sidebar TableOfContents
+
+=*THIS GOOGLE CODE PAGE IS OUTDATED. PLEASE VISIT OUR NEW WEBSITE FOR THE MOST RECENT FILES AND UPDATES ABOUT THE OPENPLC PROJECT*=
+
+==*[http://www.openplcproject.com]*==
+
 = OpenPLC Architecture =
 
 The image above shows the actual ATmega328 pinout used by OpenPLC:
